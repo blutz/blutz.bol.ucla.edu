@@ -1,0 +1,124 @@
+@import url("reset.css");
+@import url("./fonts/fontstyle.css");
+
+html {
+	background-color: #000;
+	background-image: url("gradient.jpg");
+	background-repeat: repeat-x;
+	width: 100%;
+}
+
+body {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+h1, h2, h3, p, hr, a {
+	color: #FFF;
+}
+
+* {
+	font-family: "ChanticleerRomanRegular", Times, Serif;
+	color: #FFF;
+	font-size: 18px;
+}
+
+h1, h2, h3 {
+	font-family: "BebasNeueRegular", Verdana, Sans-Serif;
+}
+
+p, li {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+a:visited {
+	color: #F7DDF2;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+div.cBox {
+	border: 2px white solid;
+	background-color: #111;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
+	padding-left: 70px;
+	position: relative;
+	width: 810px;
+}
+
+div.cBox#downloads {
+	min-height: 300px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 140px;
+	margin-top: 19px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 31px;
+}
+h3 {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Fix for IE */
+	writing-mode: bt-rl;
+	-webkit-transform: rotate(270deg); 
+	-moz-transform: rotate(270deg);
+	display: block;
+	position: absolute;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	top: 40%;
+	left: -25px;
+	text-align: center;
+	font-size: 40px;
+}
+
+li {
+	list-style: disc inside;
+}
+
+ul, ol {
+	margin-left: 30px;
+}
+
+hr {
+	width: 70%;
+	border: 1px solid #DDD;
+}
+
+a#private {
+	display: block;
+	color: #FFF;
+	font-family: "BebasNeueRegular", Verdana, Sans-Serif;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+div#auth {
+	display: none;
+	padding-top: 90px;
+	height: 200px;
+}
+div#auth > h3 {
+	left: -45px;
+}
+div#auth > form {
+	padding-left: 50px;
+}
+div#auth > form > input {
+	color: #000;
+}
