@@ -1,7 +1,12 @@
-			<p id="welcomeblock">Hey there! I&#39;m a <span class="small">third</span>-year <span class="med">Computer Science</span> student at <span class="bigbig">UCLA</span>. When I'm not working for the <a href="http://dailybruin.com">Daily Bruin</a>, you can find me designing websites, programming, running, obsessing over whipped cream, laughing way too much from corny jokes, admiring Helvetica, and preparing for <a href="?p=about#unicamp">UniCamp</a>. If you want to know more about me, download my <span class="big"><a href="?p=download#resume">r&eacute;sum&eacute;</a></span> or give me a <span class="big"><a href="?p=contact">holler</a>!</span></p>
+			<p id="welcomeblock">Hey there! I&#39;m a <span class="small">fourth</span>-year <span class="med">Computer Science</span> student at <span class="bigbig">UCLA</span>. When I'm not working for the <a href="http://dailybruin.com">Daily Bruin</a>, you can find me designing websites, programming, running, obsessing over whipped cream, laughing way too much from corny jokes, admiring Helvetica, and preparing for <a href="?p=about#unicamp">UniCamp</a>. If you want to know more about me, download my <span class="big"><a href="?p=download#resume">r&eacute;sum&eacute;</a></span> or give me a <span class="big"><a href="?p=contact">holler</a>!</span></p>
 		
 			<section>
 				<h2>Recent News</h2><hr />
+				<article>
+					<h3>Stay tuned</h3>
+					<em>Oct. 29, 2013</em>
+					<p>This website is moving, so stay tuned. The only parts that are up-to-date are my resume and portfolio.</p>
+				</article>
 				<article>
 					<h3>Don't lose your Mojo</h3>
 					<em>Feb. 14, 2012</em>

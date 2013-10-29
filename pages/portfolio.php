@@ -14,6 +14,66 @@ $(document).ready(function() {
 <section>
 	<h2>Portfolio</h2><hr />
 	<article>
+	<!-- In the Shadows -->
+	<div class="col3">
+		<a href="http://malawi.dailybruin.com/" target="_blank" class="clean">
+			<img src="/img/portfolio/bob2013_thumb.jpg" class="portfolio_image" title="In the Shadows"></img>
+		</a>
+		<p class="portfolio_tech">
+		HTML/CSS/jQuery, Foundation, Photoshop
+		</p>
+		<p class="portfolio_desc">Long form article about the LGBT community in Malawi.</p>
+	</div>
+	<!-- Meow -->
+		<div class="col3">
+			<a href="http://www.youtube.com/watch?v=NnyOiVmGqrw" target="_blank" class="clean">
+				<img src="/img/portfolio/meow_thumb.jpg" class="portfolio_image" title="Meow"></img>
+			</a>
+			<p class="portfolio_tech">
+			HTML/CSS/jQuery, Foundation, Django
+			</p>
+			<p class="portfolio_desc">An web service to schedule specially-formatted twitter/facebook posts.</p>
+		</div>
+	<!-- Calderon -->
+		<div class="col3">
+			<a href="http://graphics.latimes.com/calderon" target="_blank" class="clean">
+				<img src="/img/portfolio/calderon_thumb.jpg" class="portfolio_image" title="Calderon"></img>
+			</a>
+			<p class="portfolio_tech">
+			HTML/CSS/jQuery, Raphael, SVG
+			</p>
+			<p class="portfolio_desc">Coverage of a powerful California political family.</p>
+		</div>
+	<!-- Year in the Life -->
+		<div class="col3">
+			<a href="http://graphics.dailybruin.com/year-in-the-life-2013/" target="_blank" class="clean">
+				<img src="/img/portfolio/yitl_thumb.jpg" class="portfolio_image" title="Year in the Life"></img>
+			</a>
+			<p class="portfolio_tech">
+			HTML/CSS/jQuery
+			</p>
+			<p class="portfolio_desc">A parallax-scrolling project about the year at UCLA.</p>
+		</div>
+	<!-- Dorm room -->
+		<div class="col3">
+			<a href="http://graphics.dailybruin.com/reg2012/dorm.html" target="_blank" class="clean">
+				<img src="/img/portfolio/reg2012_thumb.jpg" class="portfolio_image" title="Registration issue 2013"></img>
+			</a>
+			<p class="portfolio_tech">
+			HTML/CSS/jQuery, Bootstrap
+			</p>
+			<p class="portfolio_desc">Online coverage for the Daily Bruin's registration issue.</p>
+		</div>
+	<!-- CPO -->
+		<div class="col3">
+			<a href="http://cpo.ucla.edu" target="_blank" class="clean">
+				<img src="/img/portfolio/cpo_thumb.jpg" class="portfolio_image" title="CPO"></img>
+			</a>
+			<p class="portfolio_tech">
+			HTML/CSS/jQuery, Bootstrap, WordPress
+			</p>
+			<p class="portfolio_desc">UCLA Community Programs Office design/website.</p>
+		</div>
 	<!-- Dance Marathon -->
 		<div class="col3">
 			<a href="http://dailybruin.com/dance-marathon" target="_blank" class="clean">
