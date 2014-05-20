@@ -18,5 +18,12 @@ function getResume ($resumetype)
 				return "./download/resume/".$cur;
 }
 
+// Forward to new site
+if(false)
+{
+    header('HTTP/1.1 301 Moved Permanently');
+}
+header('Location: http://blutz.github.io/resume.pdf')
+die();
 header('Location: '.getResume('technical'));
 ?>
