@@ -21,34 +21,44 @@
  		$page = "home";	
 
     // Forward away!
+    $forward = true;
+	if(isset($_GET["force"])) {
+		if($_GET["force"] == true)
+        {
+            $forward = false;
+        }
+	}
     $permanent = false;
     $new_url = "http://blutz.github.io";
-    if($permanent == true)
+    if($forward == true)
     {
-        header('HTTP/1.1 301 Moved Permanently');
+        if($permanent == true)
+        {
+            header('HTTP/1.1 301 Moved Permanently');
+        }
+        switch($page)
+        {
+            case "download":
+            case "fade":
+            case "interests":
+            case "portfolio":
+            case "home":
+                header('Location: '.$new_url.'/');
+                break;
+            case "contact":
+            case "about":
+                header('Location: '.$new_url.'/contact/');
+                break;
+            case "linebreak":
+            case "projects":
+                header('Location: '.$new_url.'/etc/');
+                break;
+            case "notes":
+                header('Location: '.$new_url.'/notes/');
+                break;
+        }
+        die();
     }
-    switch($page)
-    {
-        case "download":
-        case "fade":
-        case "interests":
-        case "portfolio":
-        case "home":
-            header('Location: '.$new_url.'/');
-            break;
-        case "contact":
-        case "about":
-            header('Location: '.$new_url.'/contact/');
-            break;
-        case "linebreak":
-        case "projects":
-            header('Location: '.$new_url.'/etc/');
-            break;
-        case "notes":
-            header('Location: '.$new_url.'/notes/');
-            break;
-    }
-    die();
 
     // -------------------------------------------------------------
     // NOTHING BELOW HERE IS USED. THIS SITE IS BEING FORWARDED AWAY
