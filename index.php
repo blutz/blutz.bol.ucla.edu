@@ -22,9 +22,11 @@
 
     // Forward away!
     $permanent = false;
-    $new_url = "http://blutz.github.io"
-    if($permanent)
+    $new_url = "http://blutz.github.io";
+    if($permanent == true)
+    {
         header('HTTP/1.1 301 Moved Permanently');
+    }
     switch($page)
     {
         case "download":
