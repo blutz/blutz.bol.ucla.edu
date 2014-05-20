@@ -19,6 +19,38 @@
 	}
 	else
  		$page = "home";	
+
+    // Forward away!
+    $permanent = false;
+    $new_url = "http://blutz.github.io"
+    if($permanent)
+        header('HTTP/1.1 301 Moved Permanently');
+    switch($page)
+    {
+        case "download":
+        case "fade":
+        case "interests":
+        case "portfolio":
+        case "home":
+            header('Location: '.$new_url.'/');
+            break;
+        case "contact":
+        case "about":
+            header('Location: '.$new_url.'/contact/');
+            break;
+        case "linebreak":
+        case "projects":
+            header('Location: '.$new_url.'/etc/');
+            break;
+        case "notes":
+            header('Location: '.$new_url.'/notes/');
+            break;
+    }
+    die();
+
+    // -------------------------------------------------------------
+    // NOTHING BELOW HERE IS USED. THIS SITE IS BEING FORWARDED AWAY
+    // -------------------------------------------------------------
  		
 	$pagebody = getcwd()."/pages/".$page.".php";
 	if(!file_exists($pagebody)) {
