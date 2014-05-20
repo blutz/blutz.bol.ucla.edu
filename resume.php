@@ -23,7 +23,7 @@ if(false)
 {
     header('HTTP/1.1 301 Moved Permanently');
 }
-header('Location: http://blutz.github.io/resume.pdf')
+header('Location: http://blutz.github.io/resume.pdf');
 die();
 header('Location: '.getResume('technical'));
 ?>
